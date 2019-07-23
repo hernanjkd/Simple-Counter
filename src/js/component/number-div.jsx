@@ -11,7 +11,6 @@ const Divs = props => {
 			: props.id < time_str.length
 				? time_str.substr(-id_num, 1)
 				: "0";
-
 	return <div className="d-inline">{display}</div>;
 };
 
